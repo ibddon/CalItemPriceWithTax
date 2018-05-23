@@ -1,0 +1,19 @@
+{
+  "name": "assign1",
+  "version": "1.0.0",
+  "description": " ",
+  "main": "price.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibddon/price.git"
+  },
+  "author": "ib",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ibddon/price/issues"
+  },
+  "homepage": "https://github.com/ibddon/price#readme"
+}

@@ -16,7 +16,7 @@ checkPrice.totalWithPrice = function (potentialPrice , taxRate, callBack) {
 
     if (res1 && res2)  {
 
-        callBack(true, null)
+        callBack(true, null);
 
     } else {
 
