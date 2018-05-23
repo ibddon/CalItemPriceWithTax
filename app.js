@@ -1,11 +1,11 @@
 var price = require('./price.js');
 
-var result = price.totalWithPrice1 (5.99, 0.09, function(status, msg){
+var result = price.itemPriceWithTax1 (5.99, 0.09, function(status, msg){
 
     console.log(status);
     console.log(msg);
 
-});
+}); 
 
-var res = console.log(price.totalWithPrice2(5.99, 0.09));
+var res = console.log(price.itemPriceWithTax2 (5.99, 0.09));
 
