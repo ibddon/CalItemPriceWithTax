@@ -6,8 +6,8 @@ var isNumber = function (num){
 
 };
 
-//totalPrice returns a boolean here
-checkPrice.totalWithPrice = function (potentialPrice , taxRate, callBack) {
+//totalWithPrice1 returns a boolean here
+checkPrice.totalWithPrice1 = function (potentialPrice , taxRate, callBack) {
 
     if (typeof callBack !== "function") return callBack(false, 'Error');
 
