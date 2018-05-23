@@ -1,11 +1,12 @@
 checkPrice = {};
 
-
+//checking if price is a number and a valid positive integer
 var isNumber = function (num){
     return  typeof num === "number" && num > 0;
 
 };
 
+//totalPrice returns a boolean here
 checkPrice.totalWithPrice = function (potentialPrice , taxRate, callBack) {
 
     if (typeof callBack !== "function") return callBack(false, 'Error');
@@ -24,6 +25,7 @@ checkPrice.totalWithPrice = function (potentialPrice , taxRate, callBack) {
     }
 };
 
+//totalWithPrice2 returns the computed values here
 checkPrice.totalWithPrice2 = function (potentialPrice , taxRate) {
 
     var res1 = isNumber(potentialPrice, taxRate);
