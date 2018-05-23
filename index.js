@@ -7,7 +7,7 @@ var isNumber = function (num){
 };
 
 //totalWithPrice1 returns a boolean here
-checkPrice.totalWithPrice1 = function (potentialPrice , taxRate, callBack) {
+checkPrice.itemPriceWithTax1 = function (potentialPrice , taxRate, callBack) {
 
     if (typeof callBack !== "function") return callBack(false, 'Error');
 
@@ -26,7 +26,7 @@ checkPrice.totalWithPrice1 = function (potentialPrice , taxRate, callBack) {
 };
 
 //totalWithPrice2 returns the computed values here
-checkPrice.totalWithPrice2 = function (potentialPrice , taxRate) {
+checkPrice.itemPriceWithTax2 = function (potentialPrice , taxRate) {
 
     var res1 = isNumber(potentialPrice, taxRate);
 

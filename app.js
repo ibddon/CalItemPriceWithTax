@@ -1,6 +1,6 @@
 var price = require('./price.js');
 
-var result = price.totalWithPrice1(5.99, 0.09, function(status, msg){
+var result = price.totalWithPrice1 (5.99, 0.09, function(status, msg){
 
     console.log(status);
     console.log(msg);
